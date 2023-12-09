@@ -9,7 +9,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Header />}/>
-        <Route path="/glossary" element={<Glossary />}/>
+        <Route path="/glossary-list" element={<Glossary />}/>
         <Route path={"/semantic-graph"} element={<SemanticGraph />}></Route>
       </Routes>
     </BrowserRouter>
