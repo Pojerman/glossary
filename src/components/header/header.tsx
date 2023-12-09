@@ -1,4 +1,4 @@
-import {Link, useLocation} from "react-router-dom";
+import {Link, Outlet, useLocation} from "react-router-dom";
 import "./header.css";
 import avatar from "../../assets/avatar.jpg";
 
@@ -14,6 +14,7 @@ export default function Header() {
         Алешичев Данил
         <img src={avatar} alt="avatar" width={38} height={38} className='info-img'/>
       </div>
+      <Outlet/>
     </div>
   )
 }
