@@ -1,6 +1,6 @@
 import "./card.css"
 
-type CardProps = {
+interface CardProps {
   word: string;
   description: string;
 }
