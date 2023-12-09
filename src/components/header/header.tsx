@@ -7,7 +7,7 @@ export default function Header() {
   return(
     <div className='header'>
       <div className='header-btns'>
-        <Link to='/glossary-list'><button className={`btn ${location.pathname === '/glossary' ? 'active' : ''}` }><span>Глоссарий</span></button></Link>
+        <Link to='/glossary'><button className={`btn ${location.pathname === '/glossary' ? 'active' : ''}` }><span>Глоссарий</span></button></Link>
         <Link to='/semantic-graph'><button className={`btn ${location.pathname === '/semantic-graph' ? 'active' : ''}` }><span>Семантический граф</span></button></Link>
       </div>
       <div className='header-info'>
