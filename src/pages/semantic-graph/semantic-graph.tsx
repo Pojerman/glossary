@@ -1,7 +1,7 @@
 import Header from "../../components/header/header";
 import {
   Background,
-  Controls,
+  Controls, EdgeText,
   ReactFlow,
   useEdgesState,
   useNodesState
@@ -27,6 +27,7 @@ export default function SemanticGraph() {
           onEdgesChange={onEdgesChange}
           fitView
         >
+          <EdgeText x={0} y={0}/>
           <Background />
           <Controls />
         </ReactFlow>
